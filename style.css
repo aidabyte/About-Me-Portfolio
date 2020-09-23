@@ -1,3 +1,17 @@
-body {
-    color: blueviolet;
-}
+.myfont{
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+  }
+
+  .myfontsize{
+    font-family: 'Monoton', cursive;
+    font-size: 20px;
+
+  }
+  h1{ 
+    font-family: 'Monoton', cursive;
+  }
+
+  p{
+    font-family:'Ubuntu Condensed', sans-serif;
+  }
