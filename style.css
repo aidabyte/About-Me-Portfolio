@@ -1,3 +1,9 @@
+body { 
+  background: rgb(10, 13, 14);
+  margin: 0;
+  padding: 20px;
+}
+
 .myfont{
     font-family: 'Monoton', cursive;
     font-size: 50px;
@@ -8,10 +14,27 @@
     font-size: 20px;
 
   }
+
+  .newnav{
+    display: flex;
+    justify-content: flex-end;
+    /* list-style-type: none; */
+
+  }
+
+
+  .contact {
+      display: inline-block;
+      padding: 20x;
+
+
+  }
   h1{ 
     font-family: 'Monoton', cursive;
+    color: white;
   }
 
   p{
     font-family:'Ubuntu Condensed', sans-serif;
+    color:white;
   }
