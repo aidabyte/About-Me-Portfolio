@@ -62,7 +62,9 @@ body {
     }
 
   footer{
-    position: absolute;
+    position: relative;
+    bottom: fixed;
+    text-align: center;
   }
       
 
