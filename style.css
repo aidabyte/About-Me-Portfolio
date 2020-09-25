@@ -3,11 +3,22 @@ body {
   margin: 0;
 }
 
-/* .cards {
- min-height: 100px !important; 
- 
-} */
+.newnav{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
 
+.myfont{
+  font-family: 'Monoton', cursive;
+  font-size: 50px;
+}
+
+.myfontsize{
+  font-family: 'Monoton', cursive;
+  font-size: 20px;
+
+}
 
 .jumbotron{
   padding-bottom: 0;
@@ -15,38 +26,22 @@ body {
   margin-top: 0;
   
 }
+.container-fluid{
+  width: 100%;
+}
 
-.myfont{
-    font-family: 'Monoton', cursive;
-    font-size: 50px;
-  }
-
-  .myfontsize{
-    font-family: 'Monoton', cursive;
-    font-size: 20px;
-
-  }
-
-  img {
-    height: 250%;
-    
-    
-  }
-
-  .newnav{
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 50px;
-  }
-
-  .contact {
-  display: inline-block;
-  padding: 20x;
-  }
+.container{
+  display: flex;
+}
 
   h1{ 
     font-family: 'Monoton', cursive;
     color: black;
+  }
+
+  h5{
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
   }
 
   p{
@@ -54,6 +49,11 @@ body {
     color:black;
     float: right;
   }
+
+  img {
+    height: 250%;
+    
+    }
   
   .columns { 
       float: left;
@@ -61,28 +61,40 @@ body {
       padding: 5px;
     }
 
-    #footer {
-      color:white;
+  footer{
+    position: absolute;
+  }
+      
+
+    @media only screen and (max-width:
+    768px) {
+      body{background-color: rgb(141, 228, 141);
     }
+  }
 
-     /* {
-      box-sizing: border-box;
-    }
-     */
-  
+  @media only screen and (max-width:
+  645x) {
+    body{background-color: rgb(141, 228, 141);
+  }
+}
+
+@media only screen and (max-width:
+  600px) {
+    body{background-color: rgb(141, 228, 141);
+  }
+}
+  /* .footer {
+    position: fixed; 
+    left: 0; 
     
-    /* Create four equal columns that sits next to each other */
-    
+    width: 100%;
+    background-color:white;
+    color: white;
+    text-align: center;
+  } */
 
-  
-
-   
-    
-
-    /* .row::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-     */
-  
+  /* .mb-0 {
+    background-color:white;
+    text-align: center;
+  }
+      */
