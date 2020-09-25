@@ -28,7 +28,7 @@ I created a website to serve as a portfolio for future endeavors. It is responsi
 4. Open Terminal
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type ‘git clone’ and then paste the URL you copied
-- $ git clone https://github.com/aidabyte/code-reflector-hw.git
+- $ git clone https://github.com/aidabyte/About-me-portfolio.git
 7. Press Enter. Your local clone will be created.
 
 ## Code Examples
