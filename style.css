@@ -1,7 +1,19 @@
 body { 
   background: rgb(10, 13, 14);
   margin: 0;
-  padding: 20px;
+}
+
+/* .cards {
+ min-height: 100px !important; 
+ 
+} */
+
+
+.jumbotron{
+  padding-bottom: 0;
+  height: 560px;
+  margin-top: 0;
+  
 }
 
 .myfont{
@@ -15,26 +27,62 @@ body {
 
   }
 
+  img {
+    height: 250%;
+    
+    
+  }
+
   .newnav{
     display: flex;
     justify-content: flex-end;
-    /* list-style-type: none; */
-
+    margin-bottom: 50px;
   }
-
 
   .contact {
-      display: inline-block;
-      padding: 20x;
-
-
+  display: inline-block;
+  padding: 20x;
   }
+
   h1{ 
     font-family: 'Monoton', cursive;
-    color: white;
+    color: black;
   }
 
   p{
     font-family:'Ubuntu Condensed', sans-serif;
-    color:white;
+    color:black;
+    float: right;
   }
+  
+  .columns { 
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+
+    #footer {
+      color:white;
+    }
+
+     /* {
+      box-sizing: border-box;
+    }
+     */
+  
+    
+    /* Create four equal columns that sits next to each other */
+    
+
+  
+
+   
+    
+
+    /* .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+     */
+  
