@@ -50,15 +50,12 @@ body {
     float: right;
   }
 
-  .box{
-    height: 200px;
-  }
-
   img {
     height: 250%;
     
     }
-  
+
+ 
   .columns { 
       float: left;
       width: 33.33%;
