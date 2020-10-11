@@ -1,89 +1,117 @@
-# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+# My Portfolio
+> My Portfolio made to be responsive to any device.
 
-Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
+# Live Url
+> [Aida’s Profolio](https://aidabyte.github.io/About-me-portfolio/)
+
+## Table of contents
+* [General info](#general-info)
+* [Screenshots](#screenshots)
+* [Setup](#setup)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [Contact](#contact)
+
+## General info
+I created a website to serve as a portfolio for future endeavors. It is responsive and adapts to any device it is viewed on.
+
+## Screenshots
+![Example screenshot](Images/aboutme.png)
+![Example screenshot](Images/portfolio.png)
+![Example screenshot](Images/contact.png)
+
+## Setup
+
+1. Navigate to the main page of the respository
+2. Under the repository name, click Clone or download
+3. In the Clone with HTTPSs section, click the copy
+4. Open Terminal
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type ‘git clone’ and then paste the URL you copied
+- $ git clone https://github.com/aidabyte/About-me-portfolio.git
+7. Press Enter. Your local clone will be created.
+
+## Code Examples
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href= style.css>
+    
+</head>
+<body>
+  <!-- nav bar starts here -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light newnav">
+    <a class="navbar-brand myfont" href="index.html">Aida</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse newnav" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link myfontsize" href="./contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link myfontsize" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link myfontsize" href="./index.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <p>
+        <!-- nav bar ends -->
+  </div>
+    <div class="container">
+       <div class="jumbotron">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="page-header">
+              <h1>About Me</h1>
+              </div>
+                <div class="row">
+                <div class="col-md-3">
+              <img src="Images/aboutmecolor.jpg" alt="picture of Aida in floral dress" class="img-thumbnail">
+            </div>
+          <div class="col-md-9"></div>
+       <div>
+              <p>
+                 My name is Aida Blinstrubyte. Im originally from Lithuania. I grew up in the suburbs of Chicago, but now I am currently living in Chicago, Illinois.
+                 I've been a hair colorist for the past six years of my life. I have an obsession with collecting all types of different cacti. My dogs name is Bella 
+                 and she is 10 years old. I love traveling to new warm locations that I havent been to before. 
+                 In my free time i love discovering new pescatarian dishes,hiking, doing yoga, and watching any new show on Netflix.
+              </p>
+            </div>
+         </div>
+      </div>
+    </div>
+</div>
+</div>
+         
+</body>
+
+<footer>
+<div class="bg-light">&copy; Copyright Aida</div>
+</footer>
+
+</html>
 
 
-## Directions
+## Status
+Project is: _in progress_ because I am still learning and updating as I go!
 
-First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
+## Inspiration
+Visual inspiration - visuals provided from class
+Bootstraps used:
+Navbar - modified font and positioning in the css
+Cards - modified for my contact page
+Forms - modified for my contact page
+W3Schools
 
-* Create the following files files: `index.html`, `portfolio.html` and `contact.html`.
-
-* Using Bootstrap, develop your portfolio site with the following items:
-
-   * A navbar
-
-   * A responsive layout
-
-   * Responsive images
-
-* The Bootstrap portfolio should minimize the use of media queries.
-
-* Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
-
-### Hints
-
-* Use Bootstrap's grid system (containers, rows, and columns).
-
-* On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
-
-* Use an HTML validation service to ensure that each page has valid HTML.
-
-### Minimum Requirements
-
-* Functional, deployed application
-
-* GitHub repository with README describing the project
-
-* Navbar must be consistent on each page.
-
-* Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
-
-* All links must work.
-
-* Must use semantic html.
-
-* Each page must have valid and correct HTML. (use a validation service)
-
-* Must contain your personalized information. (bio, name, images, links to social media, etc.)
-
-* Must properly utilize Bootstrap components and grid system.
-
-
-### Bonus
-
-* Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
-
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
-
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URLs of the deployed applications
-
-* The URLs of the GitHub repositories
-
-- - -
-
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+## Contact
+Created by [@aida](https://github.com/aidabyte) - feel free to contact me!
