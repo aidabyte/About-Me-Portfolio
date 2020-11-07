@@ -1,5 +1,5 @@
 body { 
-  background-image: url("/Images/lightwood.jpg");
+  background-image: url('Images/lightwood.jpg');
   margin: 0;
   padding-bottom: 50px;
   
