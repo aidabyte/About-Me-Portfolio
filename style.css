@@ -1,5 +1,5 @@
 body { 
-  background: rgb(10, 13, 14);
+  background-image: url("/Images/lightwood.jpg");
   margin: 0;
   padding-bottom: 50px;
   
@@ -10,16 +10,21 @@ body {
   justify-content: flex-end;
   margin-bottom: 50px;
   
+  
+  
 }
 
 .myfont{
   font-family: 'Caveat', cursive;
   font-size: 50px;
+  color:rgb(66, 56, 56);
+
 }
 
 .myfontsize{
   font-family: 'Caveat', cursive;
   font-size: 20px;
+  
 
 }
 
@@ -38,6 +43,7 @@ body {
   display: flex;
 }
 
+
 img{
   
   width:300px;
@@ -51,9 +57,12 @@ img{
 
   h1{ 
     font-family: 'Caveat', cursive;
-    color: black;
+    color: rgb(66, 56, 56);
   }
 
+  h4{
+    color:rgb(66, 56, 56);
+  }
   h5{
     font-family: 'Caveat', cursive;
     font-size: 30px;
@@ -61,10 +70,11 @@ img{
 
   p{
     font-family: 'Caveat', cursive;
-    color:black;
+    color:rgb(66, 56, 56);
     float: right;
     font-size: 25px;
     padding-bottom:30px;
+   
   }
 
   img {
@@ -79,6 +89,8 @@ img{
       padding: 5px;
     }
 
+   
+
   footer{
       
       position: fixed;
@@ -89,6 +101,7 @@ img{
       text-align: center;
    
   }
+  
       
 
     @media only screen and (max-width:
