@@ -106,13 +106,12 @@ img{
 
     @media only screen and (max-width:
     768px) {
-      body{background-color: rgb(2, 2, 2);
-    }
+      
+    
   }
 
   @media only screen and (max-width:
   645x) {
-    body{background-color: rgb(10, 10, 10);
-  }
+   
 }
 
