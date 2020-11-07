@@ -1,29 +1,33 @@
 body { 
   background: rgb(10, 13, 14);
   margin: 0;
+  padding-bottom: 50px;
+  
 }
 
 .newnav{
   display: flex;
   justify-content: flex-end;
   margin-bottom: 50px;
+  
 }
 
 .myfont{
-  font-family: 'Monoton', cursive;
+  font-family: 'Caveat', cursive;
   font-size: 50px;
 }
 
 .myfontsize{
-  font-family: 'Monoton', cursive;
+  font-family: 'Caveat', cursive;
   font-size: 20px;
 
 }
 
-.jumbotron{
+.jumbotron-fluid{
   padding-bottom: 0;
   height: 560px;
   margin-top: 0;
+  width: 1000px;
   
 }
 .container-fluid{
@@ -34,20 +38,33 @@ body {
   display: flex;
 }
 
+img{
+  
+  width:300px;
+  height:200%;}
+
+  
+  .card-titles{
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+  }
+
   h1{ 
-    font-family: 'Monoton', cursive;
+    font-family: 'Caveat', cursive;
     color: black;
   }
 
   h5{
-    font-family: 'Monoton', cursive;
+    font-family: 'Caveat', cursive;
     font-size: 30px;
   }
 
   p{
-    font-family:'Ubuntu Condensed', sans-serif;
+    font-family: 'Caveat', cursive;
     color:black;
     float: right;
+    font-size: 25px;
+    padding-bottom:30px;
   }
 
   img {
@@ -63,41 +80,31 @@ body {
     }
 
   footer{
-    position: relative;
-    bottom: fixed;
-    text-align: center;
+      
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: white;
+      text-align: center;
+   
   }
       
 
     @media only screen and (max-width:
     768px) {
-      body{background-color: rgb(141, 228, 141);
+      body{background-color: rgb(2, 2, 2);
     }
   }
 
   @media only screen and (max-width:
   645x) {
-    body{background-color: rgb(141, 228, 141);
+    body{background-color: rgb(10, 10, 10);
   }
 }
 
-@media only screen and (max-width:
-  600px) {
-    body{background-color: rgb(141, 228, 141);
-  }
-}
-  /* .footer {
-    position: fixed; 
-    left: 0; 
-    
-    width: 100%;
-    background-color:white;
-    color: white;
-    text-align: center;
+ /* @media only screen and (max-width:
+  300x) {
+    body{background-color: rgb(255, 255, 255);
+    }
   } */
-
-  /* .mb-0 {
-    background-color:white;
-    text-align: center;
-  }
-      */
