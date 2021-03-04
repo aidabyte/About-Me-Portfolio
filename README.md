@@ -1,6 +1,3 @@
-# My Portfolio
-> My Portfolio made to be responsive to any device.
-
 # Live Url
 > [Aida’s Profolio](https://aidabyte.github.io/About-me-portfolio/)
 
